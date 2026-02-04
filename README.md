@@ -138,8 +138,3 @@ The complete user manual (`user_manual.docx`) provides:
 4. **Conclusion**: Summary and future directions
 
 *Refer to the manual for comprehensive guidance beyond this README.*
-
-
-
-This project is for academic and educational purposes.
-
