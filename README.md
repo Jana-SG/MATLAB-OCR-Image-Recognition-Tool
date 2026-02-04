@@ -4,6 +4,11 @@ An interactive Optical Character Recognition (OCR) application built using MATLA
 This tool allows users to extract machine-readable text from images using advanced preprocessing techniques to improve OCR accuracy.
 
 ---
+
+##  Application Preview
+
+![App Screenshot](screenshots/interface.png)
+
 ## Project Overview
 
 The OCR Image Recognition Tool is designed to extract text from digital images such as:
@@ -24,6 +29,17 @@ It provides:
 
 ---
 
+## 🏗 Architecture
+
+The application maintains:
+- Original Image state (`Img`)
+- Modified Image state (`ModImg`)
+- History stack for undo functionality
+- ROI management logic
+- Modular callback-based preprocessing pipeline
+- Integrated OCR execution layer
+  
+---
 ## 🛠 Features
 
 ###  Image Input
@@ -56,8 +72,8 @@ It provides:
 ###  Structural Transformations
 - Thinning
 - Tophat Filtering
-- Skew Detection & Correction (Hough Transform)
-- Image Enlargement (Resolution Enhancement)
+- Automatic Text Deskewing using Hough Transform Line Detection
+- Image Upscaling for Improved OCR Performance
 
 ---
 
